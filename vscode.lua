@@ -28,6 +28,7 @@ function input.getBool(channel) end
 
 ---Gets a number value from the input channel.
 ---@param channel number The channel to get the value from ranging from 1-32.
+---@return number value
 function input.getNumber(channel) end
 
 ---Sets a boolean value to the output channel.
