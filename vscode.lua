@@ -230,7 +230,7 @@ function screen.getHeight() end
 ---@param pixelX number The x-coordinate of the pixel on the screen.
 ---@param pixelY number The y-coordinate of the pixel on the screen.
 ---@return number worldX, number worldY
-function screenToMap(mapX, mapY, zoom, screenW, screenH, pixelX, pixelY) end
+function map.screenToMap(mapX, mapY, zoom, screenW, screenH, pixelX, pixelY) end
 
 --- Converts map coordinates to screen coordinates.
 ---@param mapX number The x-coordinate of the top-left corner of the map.
@@ -241,7 +241,7 @@ function screenToMap(mapX, mapY, zoom, screenW, screenH, pixelX, pixelY) end
 ---@param worldX number The x-coordinate of the point on the map.
 ---@param worldY number The y-coordinate of the point on the map.
 ---@return number pixelX, number pixelY
-function mapToScreen(mapX, mapY, zoom, screenW, screenH, worldX, worldY) end
+function map.mapToScreen(mapX, mapY, zoom, screenW, screenH, worldX, worldY) end
 
 ------------------------------------------------------------------------------------------------------------------------
 -- [ Telemetry ] --
